@@ -4896,7 +4896,6 @@ body.light-nav-whitebg .site-header{
 	display: inline-block;
 	vertical-align: middle;
 	text-align: left;
-	filter: brightness(0);
 }
 .top-product-nav-menu{
 	float: right;
