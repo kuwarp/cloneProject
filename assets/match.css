@@ -1,12 +1,20 @@
 .site-blocks p, .site-blocks ul{
 	line-height: 1.55;
 }
+.m-bottom{
+	margin-bottom: 14px;
+	margin-left: 14px !important;
+}
+.m-top{
+	margin-top: 10px;
+}
 #top-inner.top-lasermach{
 	padding-top: 60px;
-	background-color: #8e1d15;
-	background-image: url(./images/art1-bg.png);
+	/* background-color:; */
+	background-image:linear-gradient( #8e1d15,black), url(./images/art1-bg.png) !important;
 	background-position: center bottom;
 	background-size: 100% auto;
+	background-repeat: no-repeat;
 	height: 105vw;
 	color: #000823;
 }
@@ -614,7 +622,7 @@
 @media screen and (min-width: 768px){
 	#top-inner.top-lasermach{
 		padding-top: 0;
-		background-image: url(./images/auto.png);
+		/* background-image: url(./images/auto.png); */
 		background-size: auto 100%;
 		background-position: 80%;
 		height: 645px;

@@ -807,6 +807,7 @@ hgroup {
 .site-header {
 	padding: 0;
 	width:100%;
+	height: 70px !important;
 	background-color:transparent;
 	padding-top: 1px;
 	position: absolute;
@@ -1927,15 +1928,15 @@ h1.search-title{
 	text-align: center;
 }
 .site-logo {
-	width:44px;
-	max-width:31%;
+	width:148px;
+	/* max-width:101%; */
 	display:block; float:none;
 	margin:1.5rem auto 0 auto;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .site-logo img {
-	width:100%;
-	height:auto
+	width:148px;
+	height:7vh ;
 }
 .site-title,
 .site-description { clear:right;}
@@ -2681,8 +2682,8 @@ body .gform_wrapper .top_label div.ginput_container{
 	width: 100%;
 	overflow: hidden;
 	padding: 0;
-	background: url(images/logo-top-new.png) no-repeat 16px 13px #fff;
-	background-size: 44px auto;
+	background: url(./assets/images/e.png) no-repeat  #fff;
+	background-size: 144px auto;
 	z-index: 10;
 }
 body.admin-bar #topFloatBar {
@@ -2700,8 +2701,8 @@ body.admin-bar #topFloatBar {
 #topFloatBar_m {
 	display: block;
 	height: 56px;
-	width: 90px;
-	/* width: calc(100% - 100px); */
+	/* width: 90px; */
+	width: calc(100% - 100px);
 	margin-left: 0;
 	float: left;
 }
@@ -2813,6 +2814,7 @@ body.admin-bar #topFloatBar {
 #masthead{
 	display: none;
 }
+
 @media screen and (min-width:1024px){
 	#topFloatBar {
 		display: none;
@@ -3386,13 +3388,12 @@ div#content {
 	margin: 0 auto;
 	position: relative;
 	width: 100%;
-	overflow: hidden;
-	background-image: url(images/top-inner.png);
+	overflow:auto;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-color: #5674fd;
 	background-size: auto 100%;
-	height:280px;
+	height:750px;
 	color: #a8dbff;
 }
 #top-inner.top-empty{
@@ -3957,7 +3958,8 @@ html[lang="zh-hans"] h2.title-about{
 
 /*join us page*/
 #top-inner.top-join{
-	background-image: url(images/top-join.jpg);
+	background-color: #000 !important;
+	/* background-image: url(images/top-join.jpg); */
 	background-size: cover;
 }
 .list-benefits{
