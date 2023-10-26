@@ -147,7 +147,18 @@ img {
 	display: table;
 	content: "";
 }
+body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
 
+/* For Webkit browsers (like Chrome and Safari) */
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
 
 /* =Repeatable patterns
 -------------------------------------------------------------- */
@@ -3384,10 +3395,10 @@ div#content {
 	background-size:auto 100%;
 	width:100%;
 }
-#top-inner::-webkit-scrollbar {
+ #top-inner::-webkit-scrollbar {
     width: 6px;
 }
-#top-inner::-webkit-scrollbar-thumb {
+ #top-inner::-webkit-scrollbar-thumb {
     background-color: transparent;
 }
 #top-inner{
